@@ -20,6 +20,17 @@ h1 {
 h2 {
   text-align: center;
 }
+.contact textarea {
+  border: none;
+
+}
+.contact button {
+  padding: 5px 15px;
+  background-color: #1abc9c;
+  color: #fff;
+  border-radius: 10%;
+  border: 1px solid #1abc9c;
+}
 /* MIX */
 
 /* PORTFOLIO */
@@ -41,4 +52,11 @@ h2 {
 
 .info {
   padding-bottom: 50px;
+  position: relative;
+}
+.info button {
+  position: absolute;
+  top: 102%;
+  left: 50%;
+  transform: translate(-50% , -50%);
 }
