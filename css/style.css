@@ -21,7 +21,7 @@ h2 {
   text-align: center;
 }
 .contact textarea {
-  border: none;
+  /* border: none; */
 
 }
 .contact button {
