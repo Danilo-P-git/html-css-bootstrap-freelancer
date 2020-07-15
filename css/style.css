@@ -1,0 +1,44 @@
+/* MIX */
+.debug {
+  background-color: red;
+  border: 1px solid black;
+  min-height: 200px;
+}
+body {
+  min-height: 2000px;
+  padding-top: 50px;
+}
+.fa-bars {
+  color: white;
+}
+hr {
+  color: black;
+}
+h1 {
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}
+/* MIX */
+
+/* PORTFOLIO */
+.box {
+  background-color: blue;
+  width: 100%;
+  height: 300px;
+}
+
+.portfolio .row [class*="col-"]:not(:last-child){
+ margin-bottom: 15px;
+}
+.portfolio {
+  padding-bottom: 50px;
+}
+/* PORTFOLIO */
+
+/* INFO */
+
+.info {
+  padding-bottom: 50px;
+}
