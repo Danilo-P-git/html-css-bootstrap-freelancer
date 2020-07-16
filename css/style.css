@@ -1,4 +1,7 @@
 /* MIX */
+*{
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
 .debug {
   background-color: red;
   border: 1px solid black;
@@ -7,6 +10,7 @@
 body {
   min-height: 2000px;
   padding-top: 50px;
+
 }
 .fa-bars {
   color: white;
@@ -42,7 +46,9 @@ body {
   top: 50%;
 
 }
-
+.color-blue {
+  background-color: #2c3e50;
+}
 .color-green {
   background-color: #1abc9c;
   color: white;
@@ -52,19 +58,28 @@ body {
   background-color:#eeeeee !important;
   border: 1px solid white !important;
 }
+.sub_title {
+  font-size: 3rem;
+  line-height: 2.5rem;
+  font-weight: 700;
+}
 /* MIX */
+
+/* NAVBAR */
+.navbar-inverse .navbar-nav > li > a {
+  color: #fff;
+}
+.navbar-inverse .navbar-brand {
+  color: #fff;
+}
+/* NAVBAR */
 
 /* PORTFOLIO */
 .box {
-  background-color: blue;
-  width: 100%;
-  height: 300px;
   margin-bottom: 15px;
 
 }
 .box img {
-  width: 100%;
-  height: 100%;
   border: 1px solid transparent;
   border-radius: 5%
 }
@@ -72,6 +87,20 @@ body {
 .portfolio {
   padding-bottom: 50px;
 }
+.portfolio .star-hr {
+  color: #2c3e50;
+}
+.portfolio .star-hr::after {
+  background-color: #2c3e50;
+  border: 1px solid #2c3e50;
+
+}
+.portfolio .star-hr::before {
+  background-color: #2c3e50;
+  border: 1px solid #2c3e50;
+
+}
+
 /* PORTFOLIO */
 
 /* INFO */
@@ -89,6 +118,21 @@ body {
   border: 1px solid #fff;
   border-radius: 6%;
   color: white;
+}
+/* INFO */
+/* CONTACT */
+.contact .star-hr {
+  color: #2c3e50;
+}
+.contact .star-hr::after {
+  background-color: #2c3e50;
+  border: 1px solid #2c3e50;
+
+}
+.contact .star-hr::before {
+  background-color: #2c3e50;
+  border: 1px solid #2c3e50;
+
 }
 
 .bottom {
