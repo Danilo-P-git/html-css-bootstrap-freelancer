@@ -66,11 +66,24 @@ body {
 /* MIX */
 
 /* NAVBAR */
+.navbar-inverse .navbar-toggle {
+  background-color: #1abc9c;
+  border-radius: 0.5rem;
+}
+.navbar-inverse .navbar-toggle:hover {
+  background-color: #148f77;
+}
+.navbar-toggle span {
+  color: #fff;
+  padding-right: 20px;
+  font-weight: bold;
+}
 .navbar-inverse .navbar-nav > li > a {
   color: #fff;
 }
 .navbar-inverse .navbar-brand {
   color: #fff;
+  font-weight: bolder;
 }
 /* NAVBAR */
 /* JUMBOTRON 1 */
@@ -207,6 +220,8 @@ footer [class*="fa-"] {
   border-radius: 100%;
   font-size: 20px;
   cursor: pointer;
+  font-weight: bolder;
+  margin-bottom: 20px;
 }
 footer [class*="fa-"]:hover {
   background-color: white;
@@ -216,9 +231,11 @@ footer [class*="fa-"]:hover {
 footer .fa-facebook-f {
   padding: 20px 25px;
 }
-
+footer .fa-google-plus-g {
+  padding: 20px 19px;
+}
 .foot_title {
-  font-size: 18px;
+  font-size: 22px;
   font-weight: bold;
 
 }
@@ -230,7 +247,7 @@ footer .fa-facebook-f {
 .bottom {
   text-align: center;
 }
-.bottom span {
+.bottom a {
   color: #21ab93
 }
 .foot-color-blue {
