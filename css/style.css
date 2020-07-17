@@ -196,7 +196,7 @@ footer [class*="fa-"]:hover {
   color: black;
 
 }
-.fa-facebook-f {
+footer .fa-facebook-f {
   padding: 20px 25px;
 }
 
