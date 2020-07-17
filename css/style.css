@@ -73,6 +73,12 @@ body {
   color: #fff;
 }
 /* NAVBAR */
+/* JUMBOTRON */
+.avatar {
+  width: 25%;
+  margin: auto;
+}
+/* JUMBOTRON */
 
 /* PORTFOLIO */
 .box {
@@ -97,31 +103,12 @@ body {
 .nascosto {
   display: none
 }
-/* @media screen and (min-width:768px) {
-  .fa-plus {
 
-  }
-}
-@media screen and (min-width:992px)  {
-  .fa-plus {
-  height: 81%;
-  line-height: 200px;
-  }
-
-}
-@media screen and (min-width:1200px) {
-  .fa-plus {
-    height: 100%
-  }
-} */
 
 .box:hover .nascosto {
   display: block;
 }
-.avatar {
-  width: 25%;
-  margin: auto;
-}
+
 .box img {
   border: 1px solid transparent;
   border-radius: 5%;
