@@ -73,7 +73,7 @@ body {
   color: #fff;
 }
 /* NAVBAR */
-/* JUMBOTRON */
+/* JUMBOTRON 1 */
 .avatar {
   width: 25%;
   margin: auto;
@@ -107,6 +107,8 @@ body {
 
 .box:hover .nascosto {
   display: block;
+  cursor: pointer;
+
 }
 
 .box img {
