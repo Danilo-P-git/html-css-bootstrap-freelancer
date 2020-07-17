@@ -84,8 +84,8 @@ body {
   position: absolute;
   color: black;
   display: block;
-  width: 359px;
-  height: 260.55px;
+  width: 100%;
+  height: auto;
   background-color: rgba(26, 188, 156, 0.8);
   border: 1px solid transparent;
   border-radius: 5%;
@@ -97,6 +97,23 @@ body {
 .nascosto {
   display: none
 }
+/* @media screen and (min-width:768px) {
+  .fa-plus {
+
+  }
+}
+@media screen and (min-width:992px)  {
+  .fa-plus {
+  height: 81%;
+  line-height: 200px;
+  }
+
+}
+@media screen and (min-width:1200px) {
+  .fa-plus {
+    height: 100%
+  }
+} */
 
 .box:hover .nascosto {
   display: block;
@@ -111,6 +128,8 @@ body {
   position: absolute;
   top: 0;
   left: 0;
+  height: 100%;
+  width: 100%;
   z-index: 1;
 }
 .portfolio {
