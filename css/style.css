@@ -182,11 +182,20 @@ body {
 }
 .contact label {
   font-weight: normal;
+  color:#6c757d;
+  opacity: 0.7;
+  font-size: 18px;
 }
 .contact textarea {
   border: none;
 }
-
+.contact input {
+  border: none;
+}
+.contact input::placeholder {
+  color:#6c757d;
+  opacity: 0.7;
+}
 /* FOOTER */
 .social {
   display: inline-block;
